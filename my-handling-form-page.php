@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "destinatario@sudominio.com";
+$email_to = "coamaranatha@gmail.com";
 $email_subject = "https://colcoam.github.io/.gi/";
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['name']) ||
