@@ -1,0 +1,439 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	background:#fefefe;
+	font-family: 'Open sans';
+}
+
+header{
+	margin: 10px auto;
+	padding:10px;
+	width: 100%;
+}
+
+header nav{
+	background: url(cabecera.jpg);
+	background-position: center top;
+	z-index: 1000;
+	max-width: 1000px;
+	width: 95%;
+	margin: 20 auto;
+}
+
+header nav ul{
+list-style: none;
+}
+
+header nav ul li:hover{
+	background: #0984CC;
+}
+
+header nav ul li{
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	padding: 20px;
+	position: relative;
+	width: 100%;
+
+}
+
+header nav ul li .sub-menu li{
+	display: block;
+
+}
+
+header nav ul li a span{
+	margin-right: 10px;
+}
+
+
+.nombre h1{
+	display: inline-block;
+	margin-left: 17%;
+}
+.lema{
+	display:block;
+	margin-left: 40%;
+	padding: 0;
+}
+
+
+.active{
+	background: #0984CC;
+}
+
+.secciones{
+	width: 100%;
+	background: #fff;
+	margin: 0px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+
+/* <--agregado del tyope -->> */
+
+
+.heade{
+background: url(cabecera.jpg);
+background-position: center top;
+padding: 15px;
+margin: 0 auto;
+width: 100%;
+font-size:16px;
+		}
+
+.icon a{
+float: left;
+  display: inline-block;
+  list-style: none;
+  color: white;
+  font-size: 12px;
+  }
+
+.icon a span{
+margin-right:10px;
+  }
+
+  .icon {
+float: left;
+  display: inline-block;
+  list-style: none;
+  color: black;
+  margin-right: 30px;
+  }
+
+.icono{
+	float: right;
+	margin-right: 8%; 
+
+}
+
+
+.sub_menu1{
+	display: none;
+}
+
+
+h1{
+	text-align: center;
+	}
+h5{
+	text-align: left;
+	width: 60%;
+}
+.span8{
+	border: gray solid 1px;
+	padding-top: 10%;
+	width: 60%;
+	margin: 20px;
+}
+
+
+.contenedor{
+background: url(cabecera.jpg);
+background-position: center top;
+width: 100%;
+padding: 0;
+margin: 0 auto;
+}
+
+
+header nav ul li:hover .sub-menu{
+	display: block;
+}
+
+header nav ul li .sub-menu{
+display: none;
+background: #011826;
+position: absolute;
+width: 150%;
+z-index: 1000;
+}
+
+
+<--formulario-->
+
+.contened{
+	width: 100%;
+	margin: 10px;
+	padding: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+}
+
+.contacto{
+display: inline-block;
+margin-right: 3%;
+padding: 10px auto;
+color: white;
+
+}
+
+.face{
+	display: inline-block;
+	right: 100%;
+	margin: 20px;
+}
+.copy{
+	width: 100%;
+	padding: 0 auto;
+	margin: 0 auto;
+	background: url(cabecera.jpg);
+background-position: center top;
+}
+
+
+
+<<--organizacion de los contenidos-->
+
+#tab21{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab22{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab23{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab31{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab32{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+#tab4{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab5{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab6{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab61{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+
+	padding-bottom: 3%;
+}
+
+#tab62{
+background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab63{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#tab64{
+	background-color: #fff; 
+	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.slides{
+	width: 100%;
+}
+
+.slides img{
+	width: 100%;
+}
+
+.slidesjs-pagination{
+	background: url(cabecera.jpg);
+	background-position: center;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li{
+	float: left;
+}
+
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+	background:#0984CC;
+}
+
+.slides.active{
+	background: #0984CC;
+}
+
+.slidesjs-navigation{
+	background: url(cabecera.jpg);
+	background-position: center;
+	color:#fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 13.5px 13.5px;
+	float: right;
+}
+
+
+.caja{
+	
+	float:right;
+}
+
+
+.contac_form{
+	width: 50%;
+	margin: 10px auto;
+	background: url(cabecera.jpg);
+	background-position: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-left: 20px; 
+	}
+
+.boton{
+	padding: 10px;
+	display: block center;
+	width: 30%;
+	
+}
+
+div form table tr td label{
+	width: 500px;
+}
+
+.contac_form h2{
+	text-align: center;
+	color: white
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	.header{
+	.padding-top: 80px;	
+	}
+	
+	.sub_menu1{
+		display:block;
+		width: 100%;
+		background: ur(cabecera.jpg);
+
+	}
+
+	
+	.lema{
+		display: none;
+	}
+	.sub_menu1 .bt-menu{
+		display:block;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		overflow: hidden;
+		font-size:25px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+	}
+
+	.sub_menu1 span{
+		float: left;
+		color: #fff;
+		overflow: hidden;
+		font-size: 20px;
+		}
+
+		header nav{
+			margin-top: 1%; 
+			width: 80%;
+			height: 100% calc(100%-80px);
+			left: 0;
+			
+
+		}
+
+		header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+
+	header nav ul li a{
+		display: block;	}
+
+		header nav ul li .sub-menu{
+		width: 100%;
+		position: relative;
+	}
+	
+}
+
+
+}
