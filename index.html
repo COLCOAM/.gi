@@ -334,55 +334,25 @@ Por último, se hace una descripción detallada acerca del Plan Maestro de Desar
 <br>
 			<div class="contac_form">
 					<h2>Escribenos</h2>
-												<form name="contactform" method="post" action="send_form_email.php"> 
-							<table width="450px"><!---Este tamaño en px es personalizable -->
-							<tr>
-							 <td valign="top">
-							  <label for="first_name">Nombre *</label>
-							 </td>
-							 <td valign="top">
-							  <input  type="text" name="first_name" maxlength="50" size="30">
-							 </td>
-							</tr>
-							<tr>
-							 <td valign="top">
-							  <label for="last_name">Apellido *</label>
-							 </td>
-							 <td valign="top">
-							  <input  type="text" name="last_name" maxlength="50" size="30">
-							 </td>
-							</tr>
-							<tr>
-							 <td valign="top">
-							  <label for="email">E-mail *</label>
-							 </td>
-							 <td valign="top">
-							  <input  type="text" name="email" maxlength="80" size="30">
-							 </td>
-							</tr>
-							<tr>
-							 <td valign="top">
-							  <label for="telephone">Teléfono</label>
-							 </td>
-							 <td valign="top">
-							  <input  type="text" name="telephone" maxlength="30" size="30">
-							 </td>
-							</tr>
-							<tr>
-							 <td valign="top">
-							  <label for="message">Mensaje *</label>
-							 </td>
-							 <td valign="top">
-							  <textarea style="width: 68%" name="message" maxlength="1000" cols="25" rows="6"></textarea>
-							 </td>
-							</tr>
-							<tr>
-							 <td colspan="2" style="text-align:center">
-							  <input type="submit" value="Submit"><a href="http://www.ladirecciondetusitio/email_form.php"><button style="margin: 10px" class="boton">Enviar</button></a>
-							 </td>
-							</tr>
-							</table>
-							</form>
+					<form action="/my-handling-form-page" method="post">
+					    <div>
+					        <label for="name">Nombre:</label>
+					        <input type="text" id="name" />
+					    </div>
+					    <div>
+					        <label for="mail">E-mail:</label>
+					        <input type="email" id="mail" />
+					    </div>
+					    <div>
+					        <label for="msg">Mensaje</label>
+					        <textarea id="msg"></textarea>
+					    </div>
+					    
+					    <div class="button">
+					        <button type="submit">Enviar</button>
+					    </div>
+					</form>
+							
 							</div>
 
 			</article>
