@@ -12,6 +12,7 @@ body{
 	font-family: 'Open sans';
 }
 
+
 header{
 	margin: 10px auto;
 	padding:10px;
@@ -22,9 +23,10 @@ header nav{
 	background: url(cabecera.jpg);
 	background-position: center top;
 	z-index: 1000;
-	max-width: 1000px;
-	width: 95%;
-	margin: 20 auto;
+	max-width: 1200px;
+	width: 100%;
+	margin: auto 7%;
+	padding: 0 auto;
 }
 
 header nav ul{
@@ -412,7 +414,7 @@ div form table tr td label{
 
 		header nav{
 			margin-top: 1%; 
-			width: 80%;
+			width: 100%;
 			height: 100% calc(100%-80px);
 			left: 0;
 			
